@@ -2,4 +2,20 @@
 layout: default
 ---
 
+<head>
+    <title>{{ page.title }}</title>
+</head>
+
+<h1 class="post_title">
+    {{ page.title | escape }}
+</h1>
+<span class="date_post_published">
+    {%- assign date_format = "%B %d, %Y" -%}
+    {{ page.date | date: date_format }}
+</span>
+<div class="content">
+    {{ content }}
+</div>
+
+
 {{ content }}
