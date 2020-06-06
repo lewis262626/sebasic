@@ -1,13 +1,41 @@
 # sebasic
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+[![Gem Version](https://badge.fury.io/rb/sebasic.svg)](https://badge.fury.io/rb/sebasic)
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+Sebasic is a clean and minimalist theme for [Jekyll](https://jekyllrb.com/), focuses on pure and efficient writing. [[view demo]](https://lewis8s.codes) 
 
-TODO: Delete this and the text above, and describe your gem
+Inspired by [sgolem](https://sgolem.com/) theme, and [rauchg.com](https://rauchg.com/)
 
+![](./github/1.png)
 
 ## Installation
+
+### New Blog
+If you want to create a new blog using sebasic. You can follow these steps after setting up the [Jekyll](https://jekyllrb.com) environments:
+
+Clone this repository: 
+```bash
+git clone https://github.com/lewisrobbins/sebasic
+```
+
+Move into that directory:
+```bash
+cd sebasic/
+```
+
+Install required gems using `bundle`:
+```bash
+bundle install
+```
+
+Run the blog in localhost
+```bash
+jekyll serve
+```
+
+Once you successfully run the sebasic blog, you can modify the theme and add posts by yourself, have fun!
+
+### Add sebasic to an Existing Blog
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -29,13 +57,34 @@ Or install it yourself as:
 
     $ gem install sebasic
 
+### Deploy to Github Pages
+
+:warning: If you want to publish your site in [Github Pages](https://pages.github.com/). Change `theme: xxx` in `_config.yml` to `remote_theme: lewisrobbins/sebasic` then push to your github repo (this is important, or you will get an error from github pages that not support the sebasic theme). If you want to test your site locally, you can change that to `theme: sebasic` and build again.
+
+
+
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+You can modify the `_config.yml` to custom your blog. 
+
+```yaml
+title: sebasic
+description: > # description of your site
+author: Your Name
+url: https://lewis8s.codes
+favicon: "./favicon.ico"
+
+sebasic:
+  date_format: "%B %d, %Y"
+
+theme: sebasic
+```
+
+# Build settings
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [here](https://github.com/lewisrobbins/sebasic)
 
 ## Development
 
