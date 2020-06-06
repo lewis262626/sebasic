@@ -1,0 +1,156 @@
+:root {
+    --link-color: #0c00ff;
+}
+
+
+/* index list of articles */
+
+
+ul, ol {
+    list-style: none;
+}
+ul li {
+    padding: 10px 15px;
+}
+
+ul li span {
+    color: #5b5b5b;
+    display: block;
+    font-size: 13px;
+}
+
+ul li a {
+    font-weight: bold;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+@media (any-hover: hover) {
+    ul li a:hover {
+        background: #eee;
+    }
+
+    ul li a:active {
+        background: #ccc;
+    }
+}
+
+@media (min-width: 500px) {
+    ul {
+        padding: 20px 0;
+        max-width: 42rem;
+        margin: auto;
+    }
+
+    ul li {
+        padding-left: 0;
+    }
+
+    ul li a {
+        padding: 10px 15px;
+        transition: 150ms background-color ease-in;
+    }
+
+    ul li span {
+        display: inline-block;
+        width: 160px;
+        padding-right: 10px;
+        text-align: right;
+        font-size: inherit;
+    }
+}
+
+/* main app body */
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 18px;
+    text-rendering: optimizeSpeed;
+}
+
+main {
+    display: block;
+}
+
+
+.app_layout {
+    --content-width: 50ch;
+    --layout-padding: 2rem;
+    margin: 0 auto;
+    padding: 0 var(--layout-pading);
+    max-width: calc(var(--content-width) + var(--layout-padding));
+}
+
+
+/* header */
+
+.style_header {
+    padding: 2rem 0;
+}
+
+.style_header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.style_header nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+nav a.home_link {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+nav a.follow_me {
+    user-select: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    background: #000;
+    color: #fff;
+}
+
+/* blog post title */
+
+.post_title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.date_post_published {
+    display: block;
+    padding-top: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.content {
+    padding: 1rem 0;
+}
+
+.content p {
+    line-height: 1.5;
+}
+
+.content a {
+    color: #0c00ff;
+}
+
+.content h2 {
+    margin: 3rem 0 1.5rem;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: end;
+}
