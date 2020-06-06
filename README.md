@@ -6,7 +6,7 @@ Sebasic is a clean and minimalist theme for [Jekyll](https://jekyllrb.com/), foc
 
 Inspired by [sgolem](https://sgolem.com/) theme, and [rauchg.com](https://rauchg.com/)
 
-![](./github/banner.png)
+![](./github/banner_2.png)
 
 ## Installation
 
