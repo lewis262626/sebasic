@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sebasic.svg)](https://badge.fury.io/rb/sebasic)
 
-Sebasic is a clean and minimalist theme for [Jekyll](https://jekyllrb.com/), focuses on pure and efficient writing. [[view demo]](https://lewis8s.codes) 
+Sebasic is an easy on the eyes IKEA style blog [Jekyll](https://jekyllrb.com/) for programmers. [[view demo]](https://lewis8s.codes) 
 
 Inspired by [sgolem](https://sgolem.com/) theme, and [rauchg.com](https://rauchg.com/)
 
