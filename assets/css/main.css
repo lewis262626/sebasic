@@ -2,9 +2,13 @@
     --link-color: #0c00ff;
 }
 
+.highlight {
+    overflow-x: scroll;
+    font-size: 1rem;
+}
+
 
 /* index list of articles */
-
 
 ul, ol {
     list-style: none;
