@@ -2,9 +2,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/sebasic.svg)](https://badge.fury.io/rb/sebasic)
 
-Sebasic is an easy on the eyes IKEA style blog [Jekyll](https://jekyllrb.com/) for programmers. [[view demo]](https://lewis8s.codes) 
+Sebasic is an easy on the eyes IKEA style [Jekyll](https://jekyllrb.com/) blog for programmers. [[view demo]](https://lewis8s.codes) 
 
-Inspired by [sgolem](https://sgolem.com/) theme, and [rauchg.com](https://rauchg.com/)
+Inspired by [sgolem](https://sgolem.com/), and [rauchg.com](https://rauchg.com/)
 
 ![](./github/banner_2.png)
 
