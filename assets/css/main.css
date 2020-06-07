@@ -28,6 +28,10 @@
     padding-left: 0.9rem;
 }
 
+.content li {
+    line-height: 1.5;
+}
+
 ul.home_list {
     list-style: none;
 }
