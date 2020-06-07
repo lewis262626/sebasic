@@ -69,13 +69,13 @@ You can modify the `_config.yml` to custom your blog.
 
 ```yaml
 title: sebasic
-description: > # description of your site
-author: Your Name
+description: Test site
+author: Lewis R
 url: https://lewis8s.codes
-favicon: "./favicon.ico"
 
 sebasic:
   date_format: "%B %d, %Y"
+  twitter_user: realDonaldTrump # Twitter username for 'follow me button'
 
 theme: sebasic
 ```

@@ -7,6 +7,20 @@
     font-size: 1rem;
 }
 
+blockquote {
+	content = "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 0.5rem;
+	background: #d3d3d3;
+}
+
+blockquote p {
+	color: grey;
+	font-style: italic;
+}
 
 /* index list of articles */
 
