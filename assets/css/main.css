@@ -24,7 +24,11 @@
 }
 /* index list of articles */
 
-ul, ol {
+.content ul {
+    padding-left: 0.9rem;
+}
+
+ul.home_list {
     list-style: none;
 }
 ul li {

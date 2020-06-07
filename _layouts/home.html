@@ -6,7 +6,7 @@ layout: default
 </head>
 
 {%- if site.posts.size > 0 -%}
-<ul>
+<ul class="home_list">
     {% for post in site.posts %}
     {% capture post_data %}{{ page.date | date: "%B %d, %Y" }}{% endcapture %}
 
