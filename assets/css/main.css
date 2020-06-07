@@ -6,22 +6,22 @@
     overflow-x: scroll;
     font-size: 1rem;
 }
-
-blockquote {
-	content = "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 0.5rem;
-	background: #d3d3d3;
+.content blockquote::before {
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    width:.5rem;
+    background:#d3d3d3;
 }
 
-blockquote p {
-	color: grey;
-	font-style: italic;
+.content blockquote {
+    position:relative;
+    padding-left:2rem;
+    color:grey;
+    font-style:italic
 }
-
 /* index list of articles */
 
 ul, ol {
