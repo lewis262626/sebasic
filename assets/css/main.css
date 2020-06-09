@@ -100,9 +100,11 @@ main {
 
 
 .app_layout {
-   max-width: 42rem;
-   margin: auto;
-   padding: 10px 0;
+    --content-width: 50ch;
+    --layout-padding: 2rem;
+    margin: 0 auto;
+    padding: 0 var(--layout-pading);
+    max-width: calc(var(--content-width) + var(--layout-padding));
 }
 
 

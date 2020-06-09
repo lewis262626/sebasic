@@ -75,7 +75,7 @@ url: https://lewis8s.codes
 
 sebasic:
   date_format: "%B %d, %Y"
-  twitter_user: realDonaldTrump # Twitter username for 'follow me button'
+  github_user: lewisrobbins # github username
 
 theme: sebasic
 ```
