@@ -103,7 +103,7 @@ main {
     --content-width: 50ch;
     --layout-padding: 2rem;
     margin: 0 auto;
-    padding: 0 var(--layout-pading);
+    padding: 0 var(--layout-padding);
     max-width: calc(var(--content-width) + var(--layout-padding));
 }
 
