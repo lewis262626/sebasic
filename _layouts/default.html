@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     {%- include head.html %}
-    <title> {{ page.title }} </title>
+    {% if page.title != nil %}
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title> {{- site.title -}} </title>
+    {% endif %}
 <body>
     <main class="app_layout" aria-label="Content">
         {%- include header.html -%}
