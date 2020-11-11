@@ -8,3 +8,6 @@ sebasic:
   github_user: lewisrobbins
 
 theme: sebasic
+
+sass:
+    style: compressed
