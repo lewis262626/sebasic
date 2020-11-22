@@ -51,6 +51,11 @@ ul li a {
     text-decoration: none;
 }
 
+span a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
 @media (any-hover: hover) {
     ul li a:hover {
         background: #eee;
