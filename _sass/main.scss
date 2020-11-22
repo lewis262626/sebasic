@@ -59,6 +59,14 @@ ul li a {
     ul li a:active {
         background: #ccc;
     }
+
+    .rss-link:hover {
+        background: #eee;
+    }
+
+    .rss-link:active {
+        background: #ccc;
+    }
 }
 
 @media (min-width: 500px) {
@@ -83,6 +91,19 @@ ul li a {
         padding-right: 10px;
         text-align: right;
         font-size: inherit;
+    }
+
+    // for rss hover (a11y)
+    .rss-span {
+        display: inline-block;
+        padding-right: 10px;
+        text-align: right;
+        font-size: inherit;
+    }
+
+    .rss-span .rss-link {
+        padding: 10px 15px;
+        transition: 150ms background-color ease-in;
     }
 }
 
