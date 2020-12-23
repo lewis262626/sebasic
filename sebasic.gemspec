@@ -2,13 +2,18 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sebasic"
-  spec.version       = "0.3.7"
+  spec.version       = "0.3.9"
   spec.authors       = ["Lewis R"]
   spec.email         = ["lewis.robbins2@gmail.com"]
 
   spec.summary       = "A basic Jekyll theme for programmers"
   spec.homepage      = "https://github.com/lewisrobbins/sebasic"
   spec.license       = "MIT"
+  spec.required_ruby_version = ">= 2.4.0"
+
+  spec.metadata = {
+    "source_code_uri" => "https://github.com/lewisrobbins/sebasic",
+  }
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
