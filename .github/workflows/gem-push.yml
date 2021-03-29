@@ -19,7 +19,6 @@ jobs:
 
     - name: Build site
       run: |
-        bundle install
         bundle exec jekyll build
 
     - name: Publish to GPR
