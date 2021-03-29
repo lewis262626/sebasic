@@ -8,16 +8,13 @@ jobs:
   build:
     name: Build + Publish
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby-versions: [2.6, 2.7, 3.0]
 
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.7
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: ${{ matrix.ruby-version }}
+        ruby-version: 2.7
         bundler-cache: true
 
     - name: Build site
