@@ -11,10 +11,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
+    - name: Set up Ruby 2.7
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.x
+        ruby-version: 2.7.2
+    - run: bundle exec jekyll build
 
     - name: Publish to GPR
       run: |
