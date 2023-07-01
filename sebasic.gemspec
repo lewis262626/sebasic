@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sebasic"
-  spec.version       = "0.3.14"
+  spec.version       = "0.4.0"
   spec.authors       = ["Lewis R"]
   spec.email         = ["lewis.robbins2@gmail.com"]
 
-  spec.summary       = "A basic Jekyll theme for programmers"
+  spec.summary       = "A stylish, minimalistic theme for Jekyll"
   spec.homepage      = "https://github.com/lewisrobbins/sebasic"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
