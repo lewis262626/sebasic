@@ -86,16 +86,14 @@ span a {
     }
 
     ul li a {
-        padding: 10px 15px;
         transition: 150ms background-color ease-in;
     }
 
     ul li span {
-        display: inline-block;
         width: 180px;
         padding-right: 10px;
-        text-align: right;
         font-size: inherit;
+        margin-top: 0.3rem;
     }
 
     // for rss hover (a11y)
@@ -118,6 +116,7 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-size: 18px;
     text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
 }
 
 main {

@@ -4,17 +4,17 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
 <ul class="home_list">
-    {% for post in site.posts %}
-    {% capture post_data %}{{ page.date | date: "%B %d, %Y" }}{% endcapture %}
+  {% for post in site.posts %}
+  {% capture post_data %}{{ page.date | date: "%B %d, %Y" }}{% endcapture %}
 
-    {%- assign date_format = "%B %d, %Y" -%}
-    <li>
-        <span>{{ post.date | date: date_format }}</span>
-        <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-        </a>
-    </li>
-    {% endfor %}
+  {%- assign date_format = "%B %d, %Y" -%}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}
+    </a>
+    <span>{{ post.date | date: date_format }}</span>
+  </li>
+  {% endfor %}
 </ul>
 {%- endif -%}
 
